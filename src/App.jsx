@@ -24,7 +24,7 @@ function App() {
 
       <FloatingLabel value={items} onChange={handleChange} variant="outlined" label="Label" id='task-input' />
       <div className="">
-      <Button as='span' onClick={appendItem}>Add Task</Button>
+      <Button as='span' color="blue" onClick={appendItem}>Add Task</Button>
     </div>
     </div>
     <div>
